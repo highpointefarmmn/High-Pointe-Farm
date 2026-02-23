@@ -1,18 +1,16 @@
-High Pointe Farm - Website Files
-================================
+High Pointe Farm - Website (Brand-aligned v2)
+=======================================
 
 Files included:
 - index.html
 - styles.css
 - script.js
+- assets/high-pointe-farm-logo.png
 
-How to use:
-1) Open index.html in a browser (double-click) to preview locally.
-2) To publish:
-   - Netlify: drag-and-drop this folder into Netlify Deploys.
-   - GitHub Pages: commit these files to a repo and enable Pages.
-   - Vercel: import the repo and deploy as a static site.
+How to publish (GitHub + Netlify):
+1) Replace files in your GitHub repo with these.
+2) Netlify will redeploy automatically after you commit.
 
 Notes:
-- The contact form is configured for Netlify Forms (data-netlify="true").
-- Replace the 'HPF' text mark with your final crest SVG/logo when ready.
+- Hero style is Option A: deep navy background with the official logo centered.
+- Contact form is configured for Netlify Forms (data-netlify="true").
