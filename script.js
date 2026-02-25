@@ -1,28 +1,18 @@
-const header = document.querySelector("[data-header]");
-const nav = document.querySelector("[data-nav]");
-const toggle = document.querySelector("[data-nav-toggle]");
-const year = document.getElementById("year");
+High Pointe Farm - Website (Balanced v3)
+==================================
 
-if (year) year.textContent = String(new Date().getFullYear());
+Files included:
+- index.html
+- styles.css
+- script.js
+- assets/high-pointe-farm-logo.png
 
-const onScroll = () => {
-  if (!header) return;
-  header.classList.toggle("is-scrolled", window.scrollY > 8);
-};
-window.addEventListener("scroll", onScroll);
-onScroll();
+Publish via GitHub + Netlify:
+1) Upload/replace these files in your GitHub repo.
+2) Ensure the assets/ folder is included.
+3) Netlify redeploys automatically after commit.
 
-if (toggle && nav) {
-  toggle.addEventListener("click", () => {
-    const isOpen = toggle.getAttribute("aria-expanded") === "true";
-    toggle.setAttribute("aria-expanded", String(!isOpen));
-    nav.classList.toggle("is-open", !isOpen);
-  });
-
-  nav.querySelectorAll("a").forEach((link) => {
-    link.addEventListener("click", () => {
-      toggle.setAttribute("aria-expanded", "false");
-      nav.classList.remove("is-open");
-    });
-  });
-}
+Notes:
+- Hero uses a light background to avoid navy-on-navy clash with the logo.
+- Gallery tiles are placeholders; replace with real images when ready.
+- Contact form is configured for Netlify Forms (data-netlify="true").
