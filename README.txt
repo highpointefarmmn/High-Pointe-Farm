@@ -3,10 +3,10 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>High Pointe Farm | Eventing & Dressage | Maple Plain, MN</title>
+    <title>High Pointe Farm | Eventing, Dressage & Hunter/Jumper | Maple Plain, MN</title>
     <meta
       name="description"
-      content="High Pointe Farm is a premium full-care boarding facility for eventing and dressage riders in Maple Plain, Minnesota."
+      content="High Pointe Farm is a premium full-care boarding facility for eventing, dressage, and hunter/jumper riders in Maple Plain, Minnesota."
     />
     <meta name="theme-color" content="#0B1F3A" />
     <link rel="stylesheet" href="styles.css" />
@@ -27,16 +27,16 @@
 
         <nav class="nav" data-nav>
           <a href="#home">Home</a>
-          <a href="#facility">Facility</a>
-          <a href="#boarding">Boarding</a>
-          <a href="#trainer-policy">Trainer Policy</a>
-          <a class="btn btn-sm" href="#contact">Inquire</a>
+          <a href="#care">Horse Care</a>
+          <a href="#environment">Riding Environment</a>
+          <a href="#ideal-boarders">Ideal Boarders</a>
+          <a href="#fees">Fees</a>
+          <a class="btn btn-sm" href="#contact">Schedule a Visit</a>
         </nav>
       </div>
     </header>
 
     <main id="main">
-      <!-- HERO (balanced, warm, approachable) -->
       <section class="hero" id="top" aria-label="High Pointe Farm hero">
         <div class="container hero-inner">
           <img
@@ -47,61 +47,101 @@
           />
 
           <div class="hero-meta">
-            <p class="hero-kicker">Eventing &amp; Dressage Boarding • Maple Plain, Minnesota</p>
+            <p class="hero-kicker">Exceptional Care • Professional Facilities • A Welcoming Riding Community</p>
             <div class="gold-rule" aria-hidden="true"></div>
-            <p class="hero-tagline">A thoughtfully managed farm where horses thrive and riders feel at home.</p>
+            <p class="hero-disciplines">Eventing • Dressage • Hunter/Jumper</p>
+            <p class="hero-location">Maple Plain, Minnesota</p>
 
             <div class="hero-actions">
-              <a class="btn" href="#contact">Inquire</a>
-              <a class="btn btn-ghost" href="#boarding">Boarding details</a>
+              <a class="btn" href="#contact">Schedule a Visit</a>
+              <a class="btn btn-ghost" href="#fees">Boarding Details</a>
             </div>
           </div>
         </div>
       </section>
 
-      <!-- INTRO -->
       <section class="section" id="home">
         <div class="container">
           <div class="section-head center">
             <h2>A Farm Built Around Exceptional Care</h2>
             <p>
-              High Pointe Farm is a 22-stall full-care boarding facility serving eventing and dressage riders who care deeply about their horses and their
-              progress. We combine attentive daily management with a supportive, welcoming barn environment where competitive junior riders and adult amateurs
-              train with purpose.
+              High Pointe Farm is a 22-stall full-care boarding facility serving eventing, dressage, and hunter/jumper riders who care deeply about their horses and the experience of riding.
+            </p>
+            <p>
+              Located in Maple Plain, Minnesota, the farm offers a thoughtfully designed facility, dependable daily care, and a welcoming barn community where riders of all levels can feel comfortable and supported. <strong>We are especially passionate about introducing young riders to the sport and helping the next generation discover the joy of horses.</strong>
             </p>
             <p class="muted">
-              Here, high standards and a positive community go hand in hand.
+              From competitive junior riders and adult amateurs to those new to horse ownership, High Pointe Farm is a place where horses receive exceptional care and riders enjoy spending time at the barn.
             </p>
           </div>
 
           <div class="feature-grid" aria-label="Highlights">
             <div class="feature">
-              <div class="feature-title">22-stall heated barn</div>
-              <div class="feature-sub">10×12 stalls • large tack room • on-site laundry</div>
+              <div class="feature-title">Thoughtfully Designed Barn</div>
+              <div class="feature-sub">22-stall heated barn • 10×12 stalls • large tack room • on-site laundry</div>
             </div>
+
             <div class="feature">
-              <div class="feature-title">Year-round riding</div>
-              <div class="feature-sub">70×120 heated indoor • 100×200 outdoor arena</div>
+              <div class="feature-title">Year-Round Riding Comfort</div>
+              <div class="feature-sub">
+                70×120 heated indoor arena directly connected to the heated barn • 100×200 outdoor arena
+              </div>
             </div>
+
             <div class="feature">
-              <div class="feature-title">Eventing amenities</div>
-              <div class="feature-sub">4-acre cross-country field • conditioning space</div>
+              <div class="feature-title">Eventing & Conditioning Space</div>
+              <div class="feature-sub">4-acre cross-country field • proximity to Baker Park Horse Trails</div>
             </div>
+
             <div class="feature">
-              <div class="feature-title">Turnout priority</div>
-              <div class="feature-sub">individual + paired turnouts • 20 acres pasture</div>
+              <div class="feature-title">Turnout Designed for Horse Welfare</div>
+              <div class="feature-sub">
+                Private and semi-private turnout • 6 acres of pasture turnout for mares and geldings
+              </div>
             </div>
           </div>
         </div>
       </section>
 
-      <!-- FACILITY -->
-      <section class="section section-cream" id="facility">
+      <section class="section section-cream" id="care">
         <div class="container">
           <div class="section-head center">
-            <h2>Designed for Year-Round Riding</h2>
+            <h2>Exceptional Daily Horse Care</h2>
             <p>
-              Our facility supports consistent training in every season—whether schooling on the flat, preparing for competition, or conditioning outside the arena.
+              Horses at High Pointe Farm receive attentive, consistent daily care designed to support health, comfort, and performance. Our approach emphasizes routine, observation, and communication to ensure every horse thrives.
+            </p>
+          </div>
+
+          <div class="two-col">
+            <div class="card">
+              <h3>Daily Horse Care</h3>
+              <ul>
+                <li>Twice-daily grain feeding</li>
+                <li>Premium hay program</li>
+                <li>Supplements administered as provided by owners</li>
+                <li>Blanketing, fly masks, boots, and seasonal gear as needed</li>
+                <li>Daily turnout (weather permitting)</li>
+              </ul>
+            </div>
+
+            <div class="card">
+              <h3>Wellness Oversight</h3>
+              <ul>
+                <li>Daily visual wellness checks</li>
+                <li>Injury monitoring and communication with owners</li>
+                <li>Coordination with veterinarian and farrier when needed</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="environment">
+        <div class="container">
+          <div class="section-head center">
+            <h2>Training & Riding Environment</h2>
+            <p>
+              Boarders enjoy full access to High Pointe Farm’s professionally maintained training and riding facilities, designed to support consistent progress throughout the year.
             </p>
           </div>
 
@@ -109,12 +149,13 @@
             <div class="card">
               <h3>Riding Spaces</h3>
               <ul>
-                <li>Heated 70 x 120 indoor arena</li>
+                <li>Heated 70 x 120 indoor arena connected directly to the heated barn</li>
                 <li>100 x 200 outdoor arena</li>
                 <li>4-acre cross-country field</li>
                 <li>Close proximity to Baker Park Horse Trails</li>
               </ul>
             </div>
+
             <div class="card">
               <h3>Barn & Amenities</h3>
               <ul>
@@ -129,110 +170,42 @@
           </div>
 
           <div class="card" style="margin-top:16px;">
-            <h3>Turnout & Pasture</h3>
+            <h3>Turnout</h3>
             <div class="pill-grid">
-              <div class="pill">8 individual 40×40 turnouts</div>
-              <div class="pill">2 paired 60×60 turnouts</div>
-              <div class="pill">20 acres pasture turnout</div>
+              <div class="pill">Private &amp; semi-private turnout</div>
+              <div class="pill">6 acres pasture turnout</div>
+              <div class="pill">Pasture grouped by mares &amp; geldings</div>
             </div>
-          </div>
-
-          <div class="section-divider" aria-hidden="true"></div>
-
-          <!-- Optional gallery placeholders -->
-          <div class="section-head center" style="margin-bottom:14px;">
-            <h2 style="font-size:1.8rem;">Farm Gallery</h2>
-            <p class="muted">Add photos when you're ready (arena, barn interior, cross-country field).</p>
-          </div>
-          <div class="gallery">
-            <div class="gallery-tile">Indoor Arena Photo</div>
-            <div class="gallery-tile">Barn / Aisle Photo</div>
-            <div class="gallery-tile">Cross-Country Field Photo</div>
           </div>
         </div>
       </section>
 
-      <!-- CARE -->
-      <section class="section" id="care">
+      <section class="section section-cream" id="ideal-boarders">
         <div class="container">
           <div class="section-head center">
-            <h2>Thoughtful, Consistent Daily Care</h2>
+            <h2>Ideal Boarders</h2>
             <p>
-              Each horse is managed with care and attention to detail, supporting long-term soundness, comfort, and performance.
+              High Pointe Farm is home to riders who value excellent horse care, a welcoming barn community, and the opportunity to enjoy time with their horses.
             </p>
           </div>
 
-          <div class="three-col">
-            <div class="card">
-              <h3>Daily Horse Care</h3>
-              <ul>
-                <li>Twice-daily grain feeding (AM/PM)</li>
-                <li>Administration of owner-provided supplements</li>
-                <li>Daily turnout (weather and footing permitting)</li>
-                <li>Blanketing and unblanketing as needed</li>
-                <li>Fly masks and seasonal gear as needed</li>
-              </ul>
+          <div class="card ideal-card">
+            <div class="pill-grid">
+              <div class="pill">Competitive junior riders</div>
+              <div class="pill">Adult amateur riders</div>
+              <div class="pill">Riders new to horse ownership</div>
+              <div class="pill">Families introducing young riders to the sport</div>
             </div>
-
-            <div class="card">
-              <h3>Wellness Oversight</h3>
-              <ul>
-                <li>Daily visual wellness checks</li>
-                <li>Injury monitoring and prompt communication</li>
-                <li>Coordination with farrier and veterinarian</li>
-                <li>Holding for scheduled farrier and veterinary appointments</li>
-              </ul>
-            </div>
-
-            <div class="card">
-              <h3>A Community That Loves the Sport</h3>
-              <p>
-                From young riders building confidence in the show ring to adult amateurs pursuing personal milestones,
-                High Pointe Farm is home to riders who share a deep respect for horses and a genuine love of riding.
-              </p>
-              <p class="muted">
-                We believe strong daily care and a supportive community create the best environment for growth.
-              </p>
-            </div>
+            <p class="ideal-copy">
+              We welcome riders working with trainers in <strong>eventing, dressage, and hunter/jumper disciplines</strong>, as well as those who simply enjoy spending time in the saddle and developing their skills over time.
+            </p>
+            <p class="ideal-copy">
+              One of our passions at High Pointe Farm is introducing young riders to the world of horses and helping them build confidence, responsibility, and a lifelong love for the sport.
+            </p>
           </div>
         </div>
       </section>
 
-      <!-- BOARDING -->
-      <section class="section section-navy" id="boarding">
-        <div class="container">
-          <div class="section-head center light">
-            <h2>Full Care Boarding</h2>
-            <p class="price"><strong>$1,500 per month</strong></p>
-            <p>Comprehensive daily care and full access to our professionally maintained facility.</p>
-          </div>
-
-          <div class="two-col">
-            <div class="panel">
-              <h3>Included</h3>
-              <ul>
-                <li>Daily horse care and wellness oversight</li>
-                <li>Heated indoor arena and outdoor arena access</li>
-                <li>Cross-country field and turnout options</li>
-                <li>Tack room, wash stall, laundry, trailer parking</li>
-              </ul>
-            </div>
-            <div class="panel">
-              <h3>Facility Access</h3>
-              <div class="list-grid">
-                <div>Heated 70×120 indoor arena</div>
-                <div>100×200 outdoor arena</div>
-                <div>4-acre cross-country field</div>
-                <div>Turnout + pasture turnout</div>
-                <div>Indoor wash stall (hot water)</div>
-                <div>On-site laundry</div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      <!-- TRAINER POLICY -->
       <section class="section" id="trainer-policy">
         <div class="container">
           <div class="section-head center">
@@ -253,15 +226,53 @@
             <div class="card">
               <h3>Preferred Connections</h3>
               <p>
-                High Pointe Farm maintains relationships with respected professionals in eventing, dressage, and hunter/jumper disciplines.
-                For boarders seeking training support, we are happy to provide introductions when requested.
+                High Pointe Farm maintains relationships with respected professionals in eventing, dressage, and hunter/jumper disciplines. For boarders seeking training support, we are happy to provide introductions when requested.
               </p>
             </div>
           </div>
         </div>
       </section>
 
-      <!-- CONTACT -->
+      <section class="section section-navy" id="fees">
+        <div class="container">
+          <div class="section-head center light">
+            <h2>Boarding &amp; Fees</h2>
+            <p class="price"><strong>Full Service Board — $1,500/month</strong></p>
+            <p>Board includes professional daily horse care and full access to High Pointe Farm’s riding and training facilities.</p>
+          </div>
+
+          <div class="two-col">
+            <div class="panel">
+              <h3>Board Includes</h3>
+              <ul>
+                <li>10 x 12 stall with daily cleaning</li>
+                <li>Premium hay (alfalfa mix)</li>
+                <li>Grain program or owner-provided grain</li>
+                <li>Supplement administration</li>
+                <li>Daily turnout (weather permitting)</li>
+                <li>Blanketing, fly masks, boots, and basic care</li>
+                <li>Use of indoor and outdoor arenas</li>
+                <li>Standard facility maintenance</li>
+              </ul>
+            </div>
+
+            <div class="panel">
+              <h3>Additional Services</h3>
+              <ul>
+                <li>Arena fee per lesson (boarders) — $10</li>
+                <li>Haul-in arena fee — $30</li>
+                <li>Body clipping — $150</li>
+                <li>Holding for vet or farrier — $25</li>
+                <li>Trailer parking — $10/month</li>
+                <li>Tack cleaning (saddle &amp; bridle) — $35</li>
+                <li>Day stall — $40</li>
+                <li>Overnight stall — $50</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
       <section class="section section-cream" id="contact">
         <div class="container">
           <div class="section-head center">
@@ -321,12 +332,12 @@
       <div class="container footer-inner">
         <div>
           <div class="footer-name">High Pointe Farm</div>
-          <div class="footer-sub">Eventing • Dressage</div>
+          <div class="footer-sub">Eventing • Dressage • Hunter/Jumper</div>
         </div>
         <div class="footer-links">
-          <a href="#facility">Facility</a>
-          <a href="#boarding">Boarding</a>
-          <a href="#trainer-policy">Trainer Policy</a>
+          <a href="#care">Horse Care</a>
+          <a href="#environment">Riding Environment</a>
+          <a href="#fees">Fees</a>
           <a href="#contact">Contact</a>
         </div>
       </div>
