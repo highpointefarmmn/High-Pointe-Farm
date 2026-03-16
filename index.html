@@ -637,95 +637,128 @@
       </div>
     </section>
 
-    <section class="section section-navy" id="fees">
-      <div class="container">
-        <div class="section-head">
-          <h2>Boarding &amp; Fees</h2>
-          <p class="price">Full Service Board — $1,500/month</p>
-          <p>Board includes professional daily horse care and full access to High Pointe Farm’s riding and training facilities.</p>
-        </div>
+    <section class="section section-cream" id="fees">
+  <div class="container">
+    <div class="section-head">
+      <h2>Boarding &amp; Fees</h2>
+      <p class="price">Full Service Board — $1,500/month</p>
+      <p>Board includes professional daily horse care and full access to High Pointe Farm’s riding and training facilities.</p>
+    </div>
 
-        <div class="two-col">
-          <div class="panel">
-            <h3>Board Includes</h3>
-            <ul>
-              <li>10 x 12 stall with daily cleaning</li>
-              <li>Premium hay (alfalfa mix)</li>
-              <li>Grain program or owner-provided grain</li>
-              <li>Supplement administration</li>
-              <li>Daily turnout (weather permitting)</li>
-              <li>Blanketing, fly masks, boots, and basic care</li>
-              <li>Use of indoor and outdoor arenas</li>
-              <li>Standard facility maintenance</li>
-            </ul>
-          </div>
-
-          <div class="panel">
-            <h3>Additional Services</h3>
-            <ul>
-              <li>Arena fee per lesson (boarders) — $10</li>
-              <li>Haul-in arena fee — $30</li>
-              <li>Body clipping — $150</li>
-              <li>Holding for vet or farrier — $25</li>
-              <li>Trailer parking — $10/month</li>
-              <li>Tack cleaning (saddle &amp; bridle) — $35</li>
-              <li>Day stall — $40</li>
-              <li>Overnight stall — $50</li>
-            </ul>
-          </div>
-        </div>
+    <div class="two-col">
+      <div class="card">
+        <h3>Board Includes</h3>
+        <ul>
+          <li>10 x 12 stall with daily cleaning</li>
+          <li>Premium hay (alfalfa mix)</li>
+          <li>Grain program or owner-provided grain</li>
+          <li>Supplement administration</li>
+          <li>Daily turnout (weather permitting)</li>
+          <li>Blanketing, fly masks, boots, and basic care</li>
+          <li>Use of indoor and outdoor arenas</li>
+          <li>Standard facility maintenance</li>
+        </ul>
       </div>
-    </section>
+
+      <div class="card">
+        <h3>Additional Services</h3>
+        <ul>
+          <li>Arena fee per lesson (boarders) — $10</li>
+          <li>Haul-in arena fee — $30</li>
+          <li>Body clipping — $150</li>
+          <li>Holding for vet or farrier — $25</li>
+          <li>Trailer parking — $10/month</li>
+          <li>Tack cleaning (saddle &amp; bridle) — $35</li>
+          <li>Day stall — $40</li>
+          <li>Overnight stall — $50</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
 
     <section class="section section-cream" id="contact">
-      <div class="container">
-        <div class="section-head">
-          <h2>Schedule a Visit</h2>
-          <p>We welcome inquiries and are happy to arrange a tour of the farm.</p>
+  <div class="container">
+    <div class="section-head">
+      <h2>Schedule a Visit</h2>
+      <p>We welcome inquiries and are happy to arrange a tour of the farm.</p>
+    </div>
+
+    <div class="contact-grid">
+      <div class="contact-card">
+        <div class="label">Address</div>
+        <div class="value">4650 Maple Street, Maple Plain, MN 55359</div>
+      </div>
+      <div class="contact-card">
+        <div class="label">Owner</div>
+        <a class="value" href="tel:+16127518861">Katie Nelson • 612-751-8861</a>
+      </div>
+      <div class="contact-card">
+        <div class="label">Barn Manager</div>
+        <a class="value" href="tel:+19523787436">Anne Geyer • 952-378-7436</a>
+      </div>
+    </div>
+
+    <div class="two-col">
+      <form class="form" name="boarding-inquiry" method="POST" data-netlify="true">
+        <input type="hidden" name="form-name" value="boarding-inquiry">
+
+        <div class="form-grid">
+          <label>
+            Name
+            <input type="text" name="name" required>
+          </label>
+
+          <label>
+            Email
+            <input type="email" name="email" required>
+          </label>
+
+          <label>
+            Phone
+            <input type="text" name="phone">
+          </label>
+
+          <label>
+            Interest
+            <select name="interest">
+              <option>Boarding</option>
+              <option>Facility Tour</option>
+              <option>Trainer Approval</option>
+              <option>Lessons / Future Program</option>
+              <option>Other</option>
+            </select>
+          </label>
+
+          <label class="span-2">
+            Message
+            <textarea name="message" rows="6" placeholder="Tell us about your horse, riding goals, and timing."></textarea>
+          </label>
         </div>
 
-        <div class="contact-grid">
-          <div class="contact-card">
-            <div class="label">Address</div>
-            <div class="value">4650 Maple Street, Maple Plain, MN 55359</div>
-          </div>
-          <div class="contact-card">
-            <div class="label">Owner</div>
-            <a class="value" href="tel:+16127518861">Katie Nelson • 612-751-8861</a>
-          </div>
-          <div class="contact-card">
-            <div class="label">Barn Manager</div>
-            <a class="value" href="tel:+19523787436">Anne Geyer • 952-378-7436</a>
-          </div>
+        <div style="margin-top:18px;">
+          <button type="submit" class="btn">Submit Inquiry</button>
         </div>
+      </form>
 
-        <div class="form">
-          <div class="form-grid">
-            <label>
-              Name
-              <input type="text" placeholder="Your name">
-            </label>
-            <label>
-              Email
-              <input type="email" placeholder="Your email">
-            </label>
-            <label class="span-2">
-              Interest
-              <select>
-                <option>Boarding</option>
-                <option>Facility Tour</option>
-                <option>Trainer Approval</option>
-                <option>Other</option>
-              </select>
-            </label>
-            <label class="span-2">
-              Message
-              <textarea rows="5" placeholder="Tell us about your horse, goals, and timeline."></textarea>
-            </label>
-          </div>
+      <div class="card map-card">
+        <h3>Maple Plain Location</h3>
+        <p>
+          High Pointe Farm is conveniently located in Maple Plain, with easy access for riders throughout the west metro and close proximity to Baker Park Horse Trails.
+        </p>
+
+        <div class="map-embed">
+          <iframe
+            title="High Pointe Farm Map"
+            src="https://www.google.com/maps?q=4650%20Maple%20Street%20Maple%20Plain%20MN%2055359&output=embed"
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade">
+          </iframe>
         </div>
       </div>
-    </section>
+    </div>
+  </div>
+</section>
   </main>
 
   <footer class="footer">
